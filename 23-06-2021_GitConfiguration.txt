@@ -1,0 +1,26 @@
+Git ->
+
+https://git-scm.com/
+
+git configuration
+
+step-01 github account.
+		a->https://github.com/
+		b->signup n and create account.
+		c->log in.
+step-02 create git repo.
+         a- click on New.
+		 b- fill the form which required repo name 
+
+step-03 git repo integration remote to local .
+          a-> remote repo > local repo.
+		      1.copy repo uri.
+			  2.where you want clone it.
+step-04 git add , commit , push
+
+        a-git status
+		b-git add *
+		c-git commit -m"this test file"
+		d-git push
+step-05 will check repo on cloud (git).
+       
