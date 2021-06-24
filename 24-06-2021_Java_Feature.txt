@@ -1,0 +1,14 @@
+1) Explain java buzzword.
+  features.
+2)java is portable / platform independant:
+     
+	  java application will work on any platform not requirem any specific platform.
+3)OOp:
+    Relationship
+	encapsulation
+	polymorphisam
+	Auto Memory Management.
+	
+	IDE Configuration 
+	Sample Programm
+	

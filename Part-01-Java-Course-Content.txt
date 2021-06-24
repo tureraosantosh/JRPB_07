@@ -1,0 +1,46 @@
+Batch will start at 8pm.
+
+-----------9967120080-----
+===================================
+Part-01- Core Java With RealTime Imlementation.
+         Basic Programing
+				1)What is Programming Lanaguage
+				2)Types of Programing Language
+				
+				Git -> commit push
+				
+				3)Java Introuduction.
+				    
+				
+				4)Java Architecture JDK,JRE,JVM
+				5)Variable/Constant.
+				6)Opertor.
+				7)Data Types.
+				8)Statement.
+				9)Method.
+				10.Mini Project
+---------------------------------------------------------	
+  OOP         
+=========================================================	
+0.Class And Object.
+1.Encapsulation.
+2.Abstraction.
+   Interface,abstract class.
+   loosly coupling and tightly 
+3.Relationship(Databases,Java).
+4.Polymorphisam.
+5.Exception Handling.
+6.Multithreading.
+7.Collection Basic Data Structure (Array, Dynamic Array)
+8.Mini Project.
+========================================================	
+
+Advance Java 
+1.Servlet
+2.JSP.
+3.JDBC.
+mini project.
+
+
+	
+				
