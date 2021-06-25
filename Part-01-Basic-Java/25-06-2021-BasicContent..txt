@@ -1,0 +1,63 @@
+Basic  Programming
+------------------------------------
+
+English					Programming
+1)Grammer				 Syntax.
+2)A to Z                 A to Z.
+3)0 to 9                 0 to 9.
+4)Word                   Variable/Contant.
+5)Sentance                Statement.
+6)Paragraph                Method.
+7)Page					Class.
+8)Lesson                Package.
+9)Book                  Application.
+
+Variable/Contant
+-------------------------------------
+
+Variable :
+        name of memory location where we store data called variable.
+Constant : value which we have store in a variable .
+
+Statement: combination of  multiple variable and constant.
+
+            Types of Statemet.
+			1)Declaration statement.
+				where we declare variable,method it is called declaration statement.
+				Example.
+				
+				int a;  //variable
+				int b;
+				int c;
+
+			2)Arithmatic statement.
+			        c=a+b; //where mathematic hapens that statement called arithmatic statement.
+			3)Logical/Conditional statement : statement execution depend on condition.
+			
+			   a) Branching                    b)looping
+			   if , else if,switch case.              for , while , do-while.
+			   
+
+			Data Types.
+-------------------------------------------------------
+1)Primitive                             
+ which is defined by programming language.		
+ a)size of data type restricted
+ b)storing value restricted.
+
+int  2000000
+float 2.2           byte8
+double 2.4          byte8
+Long  1L            byte8.
+
+char can store only one charactor.                 1bit
+
+'a'
+
+boolean true or false.       NA
+
+
+   
+
+
+

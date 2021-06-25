@@ -1,0 +1,39 @@
+What is a Framework?
+           combination of pre-defined+ readymade code.
+		     
+Types of Framework?
+          UI Framework : React/Angular/Vue.js
+		  
+       Web Framework -> which is work on Controller
+	                    struts
+						
+		DAO  Framework : Hibernate/MyBatis.			
+
+Spring Framework:
+        End to End Development.
+		
+          User Layer.
+          Controller Layer.
+          Business Layr.
+          Dao Layer.
+		  
+Types Of Application.
+1)StandAlone Application.
+
+		Notepad++
+		Visual StudioCode.
+		Word,powerpoint.
+		
+2)Web Application 
+       Web MVC. 
+       AWS Cloud.	   
+3)Distributed Application.
+      API Abstract Proggming Interface  .API Expose.
+	  Restfull or soapFull
+	  
+	  Sring Rest.
+	  
+	  
+		  
+Spring Framework Vs Spring Boot.
+Spring Boot Internals.
