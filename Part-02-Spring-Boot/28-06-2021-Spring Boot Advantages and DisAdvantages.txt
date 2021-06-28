@@ -1,0 +1,105 @@
+Application Archtecture High Level.
+
+1)User
+2)Application Servier
+3)Database Server.
+
+Low Level
+
+1)User  Presentation Layer/
+    html,css,javascript bootstrapt, Angular/React.
+2)Application Server
+     1)Controller Layer.  
+	     Request Controller
+		   Controller
+	 2)Service / Buisiness Layer.
+	     Request Handling managing by this layer
+		  core java
+	 3)Dao Data Access Layer.
+	     Data JPA.
+	          it is used to connect with the db and fetch and manipulate data.
+       
+3)Database Server.
+    Storage 
+	 mysql,postgresql,mongodb, oracl.
+	 
+	 
+Spring Framework :
+
+ it is End to End Application Development Framework.  
+ it is developed in moduler fashion.
+ 
+ version 1.0 
+ 1)Spring Core:
+        -> it is used to create and manage Objects.
+ 2)Spring ORM:
+        ->it is used to Mapped Entity Java Classes to Database Table.
+ 3)Spring Web:
+        ->it is used to develope simple web application
+ 4)Spring MVC(MOdel View And Controller):
+            ->it is used to develope distributed application using MVC pattern.
+            
+ 5)Spring DAO:
+           this module used to connect with database.
+ 6)Spring Context:
+            it is used to configure sequirity,authrization etc.
+			UI Configuration ,Validation.
+ 7)Spring AOP:
+                    Aspect oriented Programming.
+					
+
+What is Spring Boot?
+----------------------------------
+1) Spring boot is not a additional module it is extension for spring framework.
+2) it is an approach to develope application with minimal configuration.
+3) Spring boot support autoconfiguration.
+
+What Are Advantages?
+----------------------------
+1)All Types of Applcation Developed By Spring boot.
+ StandAlone Application.
+ Web Applcation
+ Distributed Applcation.
+ 
+2)Minimum configuration and Dependancy management using Starter POM.
+3)Auto Configuration.
+4)Rapid Application Development (production Ready)
+5)not required any server , it has embeded server as apache tomcat.
+6)support Embeded  H2 Database.
+
+
+What are Starters used in boot?
+      
+   1)spring-boot-start (web).
+   2)spring-boot-starter-data-jpa (database)
+   3)spring-boot-starter-mail (to send email)
+   4)spring-boot-starter-test (for testing)
+   5)spring-boot-starter-actuator.
+   
+   
+   
+
+DisAdvantges.
+---------------------
+1)Project migration is very dificult.
+
+
+First Application.
+
+Proejct Structure Study.
+
+
+Installation :
+0)Git Installation
+1)Java 8 installation.
+	a)enviroment veriable set  JAVA_HOME 
+2)STS Downlonad and Exctract and keep it in any drive.
+
+
+
+
+
+Spring Boot Internals.
+-------------------------------------------------------------------
+
+	 
