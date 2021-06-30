@@ -1,0 +1,95 @@
+What is class and Object?
+ Class:
+ Class is a realtime Entity or template.
+ 
+ Object:
+    object is copy of class , it contains data and methods.
+ Behaviour
+ Data
+ Setting Data into Object and Types
+ Getting Data From Object 
+ 
+Realtime Use case for Object.
+------------------------------------------
+
+1)class
+public,private,protected
+    access modifier class ClassName{
+	
+	}
+	
+	ex:
+	
+public class Student{
+
+  2)datmember.
+  data type  dataMemberName;
+ex:
+   String firstName;
+   String lastName;
+   String email;
+   int age;
+   
+   3)methods
+   
+   Syntax:
+   access modifier    return type(void) methodName(){
+   
+   
+   }
+   
+   ex:
+   public void show(){
+   
+   4)object creation.
+   
+   ClassName objectName=new ClassName();
+   
+   Ex:
+   
+   Student s1=new Student();
+   
+   }
+}
+
+filling values in object.
+
+accessDatamember;
+     s1.firstName="santosh"
+	 s1.age=30
+createFillingMethod;
+createConstructor;
+
+
+--------------------------------------------------
+package basic;
+
+public class Student {	
+	//Data Members.
+	//access
+
+	public String firstName;
+	public String lastName;
+	public String email;
+	public int age;	
+	//Method
+	public void displayStudentInfo()
+	{
+		System.out.println("First Name : "+firstName);
+		System.out.println("Last Name : "+lastName);
+		System.out.println("Email : "+email);
+		System.out.println("age : "+age);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Student s1=new Student();
+		s1.firstName="Lilly";
+		s1.displayStudentInfo();
+	
+	}
+
+}
+
+
