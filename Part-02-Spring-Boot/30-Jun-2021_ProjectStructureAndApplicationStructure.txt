@@ -1,0 +1,54 @@
+
+Spring Boot Project Structure.
+------------------------------------------
+Packages:
+ Combinations Of Java Classes Called Package.
+ it represent as group of class.
+ 
+ Application Required Packages.
+ 
+		0)Base Package (Main Class which is used to run application)
+		
+        1)Presentation Layer : Package
+		2)Controller         : Package
+		3)Buisiness          : Package
+		4)DAO                : Package
+        5)Entity             : Package
+
+
+
+Calculator.java
+{
+
+int a,b,c;
+
+addition()
+{
+
+a=90;
+b=20;
+c=a=b;
+
+}
+
+}
+
+Java class    : Maven: these tools use to compile and build java classes.
+
+Maven : download maven and configure.
+1)it  is Build Tool 
+2) Dependancy Management.
+      .m2
+1)Basic
+
+Download:
+    
+	Step 1: URI: https://maven.apache.org/download.cgi
+	Step 2: 	apache-maven-3.8.1-bin.zip  download the zip 
+	
+Configuration:
+ Step1 : extract maven folder and copy all containt.
+ step2 : goto in c drive create a folder name maven and paste all content.
+ step  : go into maven folder and bin , get the path till bin.
+ step 4: go to this pc and set user envoirment and system envoirment.
+	

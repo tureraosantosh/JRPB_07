@@ -1,0 +1,38 @@
+package com.example.demo;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.demo.entity.Employee;
+import com.example.demo.repo.EmployeeRepo;
+
+@SpringBootTest
+class UnitTestingsApplicationTests {
+
+	@Test
+	void testUpdateEmployee() {
+		
+		System.out.println("Welcome Testing ..");
+	}
+	
+	@Autowired
+	private EmployeeRepo empRepo;
+	
+	
+	@Test
+	void testSaveEmployee() {
+		
+		Employee input = new Employee(1L, "Sant");
+		
+		
+		Employee output = empRepo.save(input);
+		
+		assertEquals(input.getName(), "SSant");
+		
+		System.out.println("Welcome Testing ..");
+	}
+
+}

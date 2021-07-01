@@ -1,0 +1,108 @@
+class Student
+{
+
+ String name;
+ String email;
+ String mobile;
+ 
+ public void display()
+ {
+ 
+ System.out.print(" Name :: "+name);
+ 
+ }
+ 
+}
+
+
+class Test
+{
+
+    main()
+	{
+	
+	Student s1=new Student();
+	
+	s1.name="santosh";
+	
+	s1.display();
+	
+	}
+
+}
+
+Object value set
+
+1)field access
+
+     
+2)using setterMethod
+  Encapsulation
+  
+3)Constructor
+
+
+---------------Set Data Using Setter Method----------------------
+package basic;
+
+public class Employee {
+	
+	private String empId;
+	private String empName;
+	private int salary;
+	
+	public void setEmpId(String e)
+	{
+		//
+		empId=e;
+	}
+	
+	public void setEmpName(String em)
+	{
+		empName=em;
+	}
+	
+	public void setSalary(int s)
+	{
+		salary=s;
+	}
+	
+	public void display()
+	{
+		System.out.println("EmpId :: "+empId);
+		System.out.println("EmpName :: "+empName);
+		System.out.println("salary :: "+salary);
+		
+	}
+
+}
+
+------------------------------------------------------------
+
+package basic;
+
+public class Test {
+	
+	
+	public static void main(String[] args) {
+		
+
+		System.out.println();
+		
+		Employee emp1=new Employee();
+		
+		emp1.setEmpId("UB1234677");
+		emp1.setEmpName("Sagar");
+		emp1.setSalary(2000);
+		
+//		emp1.empName="sagar";
+//		emp1.salary=9100091;
+		
+		emp1.display();
+		
+		
+	}
+
+}
+
+Constructor
