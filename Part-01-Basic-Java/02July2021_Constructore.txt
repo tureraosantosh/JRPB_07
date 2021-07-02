@@ -1,0 +1,71 @@
+Object Sets Value Using Constructor
+---------------------------------------
+
+
+class Test
+{
+
+
+
+
+}
+
+
+//1.variable and method  name must be start with lowercase ,cameCase
+//2. Class Name Must be Start With Captila EmployeeAddress
+//3.addition / setName
+
+class Employee
+{
+
+private Long id;
+private String name;
+private String email;
+
+public void setId(Long i)
+{
+
+id=i;
+}
+public void setName(String n){
+name=n;
+}
+public void setEmail(String e){
+email=e;
+}
+
+public void show()
+{
+
+System.out.println(" Name :: "+name);
+
+}
+
+}
+
+//Constructor
+	0.it is used to intilize variable/data member value.
+   1.it is a supermethod because it execute automatically whenever object created.
+   2.need not to call  using object.
+ Define :
+   1.Constructor name must be same as class name;
+   2.Constructor must be public.
+   3.Constructor does not have return type.
+   
+   Example:
+      AccessSpecifier  ClassName(){
+	  
+	  }
+	  ex:
+	  public Employee(){
+	  
+	  }   
+   Types Of Constructor.
+   1)Default  : if we dont have any constructor in a class , compiler add at compile time.
+   2)Zero Argument 
+   3)Parametrized /Argument Constructor.
+   
+   
+   Setter Method can override constructor values.
+   
+

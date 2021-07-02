@@ -1,0 +1,52 @@
+Session-04-Main Class Analysis| Spring Boot Main class Internal.
+--------------------------------------------------------------------
+
+@SpringBootApplication
+public class Session02ApplicationArchitectureApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Session02ApplicationArchitectureApplication.class, args);
+	}
+
+}
+
+1) @SpringApplication
+2) public static void main(String[] args) {
+		SpringApplication.run(Session02ApplicationArchitectureApplication.class, args);
+	}
+
+1)@SpringBootApplication Annotation.
+   ->Annotation -> it is available in java  1.5 version 
+   -> Annotation is Configuration or settings . which represent specific task.
+   
+   @SpringBootApplication Annotation contains 3 main other Annotation:
+     1)@SpringBootConfiguration:
+						it is used to enable Boot Configuration.
+	 2)@EnableAutoConfiguration:
+	                    it is used to enable Auto configuration for all custom classes and default classe.
+	 3)@ComponentScan:
+	               it is used to scan (base package) and identify which class is spring bean.
+   
+
+2) public static void main(String[] args) {
+		SpringApplication.run(Session02ApplicationArchitectureApplication.class, args);
+	}
+	
+	WebApplicationType.deduceFromClasspath();:
+	         this method identify type of application
+			     it identify application type using class path dependancy.
+			 
+			  1.web flux (web application) Reactive.
+			    
+			  2.Servlet (web application) Servelet
+			  3.standalone application.  
+			  
+			  
+1)Object Creation linking or communicating classe
+2)Method 
+3)method calling.
+			  
+			  
+			  
+	    
+   
