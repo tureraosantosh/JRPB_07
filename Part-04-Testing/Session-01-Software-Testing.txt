@@ -1,0 +1,12 @@
+Software Testing.
+--------------------------------
+UNIT TESTING:
+ is a type of software testing where individual units or components of a software are tested. 
+ The purpose is to validate that each unit of the software code performs as expected. 
+ 
+
+INTEGRATION TESTING:
+is defined as a type of testing where software modules are integrated logically and tested as a group.
+
+SYSTEM TESTING:
+is a level of testing that validates the complete and fully integrated software product. 

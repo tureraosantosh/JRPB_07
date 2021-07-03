@@ -1,0 +1,110 @@
+Session-05-Getter Method and Conditional Statements.
+-----------------------------------------------------
+
+English                            programming.
+Grammer									Syntax.
+A to Z                                  A to Z.
+0 to 9                                  0 to 9
+-=*&%                                   -=+*&  (Operators)
+Data Type                               Data Type
+Word                                    Variable/Constants.
+Sentence                                 Statement.
+Paragraph                                Method.
+Page                                     Class.
+Lesson                                   Package.
+Subject                                  JAR/WAR/Application / Software.
+
+Operator  : A Symbol which perform operation on operand (value) it is called operator.
+
+types of Operator:
+   1) Unary(One)  : which operator perform operation on single value(Oprand) that operator called Unary.
+      a)increment
+	  
+	   b=10;
+		b++
+	    
+	  b)decrement
+	   a=10;
+		 a--;
+	   
+   2) Binary(Two) : Which Operator perform operation on two value(Operand) that operator called Binary.
+                 a)Arithmatic operator.
+                             +,-,/,%
+                           x=5;
+							y=90;
+							z=x+y;
+				b)Logical
+				
+				1)And 2)or 3) Not.
+				
+				c)Compare : it return always true or false 
+				    1)greater >
+					2)less <
+					3)>=  5>8
+					4)<=
+					5)==
+					
+					10==107
+					100>10
+					100<10
+				d)Assigment 
+				   a=5;
+				   b=0;			
+				   
+				   z=a>b;
+				   
+				   
+				   
+  3)Ternary (Three): which operator perform operation on three or more values called ternary operator.
+               example:
+			   ?:
+
+Data  Type:
+
+primitive :
+
+		Number
+		 int
+		 double
+		 Long
+		 
+		 Charactor
+		 
+		    char divisio='A'
+			char name='s'
+			String name="santosh"
+					boolean 
+Statement :
+        
+		combination of variable constants.
+		1)declaration : where we declare variable,method,class etc called declaration statement.
+		
+		   int a;
+		 2)arithmatic : mathemitc 
+		 x+y;
+		 
+		3) conditional statment:
+		  1)Jumping                    2)Looping
+		    if,else if                    for,while,do-while.
+			switch case               
+		
+		
+
+public static void main(String[] args) {
+		int mark;
+		mark = 5;
+
+		if (mark > 40) {
+			System.out.println("You Are Passed");
+		} else {
+			System.out.println("You are Eligible to Enjoy one more Year !!!!");
+		}
+
+	}
+	Assigment
+	if age greater than 18 You are eligble for voting.
+	else : you are not eligble for voting.
+	
+	2. if age greater than 45 You are eligble for Vaccine
+	else You are not eligble for Vaccine.
+		
