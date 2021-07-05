@@ -1,0 +1,62 @@
+Session-06-Multiple conditions
+----------------------------------
+
+mark =45;
+
+if mark >90 : passed with A grade
+if mark >75 : passed with B Grade.
+if mark >60 : passed with C Grade.
+
+we can handle multiple using 
+else if, 
+
+if(mark>90)
+{
+
+System.out.println("Passed With A Grade");
+
+}
+
+else if(mark>75){
+
+System.out.println("Passed With B Grade");
+
+}
+else if(mark >60){
+System.out.println("Passed With C Grade ");
+}
+
+else if(mark >40){
+System.out.println("Passed ");
+}
+
+else{
+
+System.out.println("You Failed , You Can Try one time ");
+
+}
+
+switch case
+Switch and Case
+
+int choice;
+
+System.out.print("1.Veg 2.Non-veg");
+choice=2;
+
+switch(choice){
+case 1:
+System.out.println("****Veg Menu****");
+break;
+
+case 2:
+System.out.println("***********Non -Veg Menu*******");
+break;
+
+}
+
+
+multiple if.
+
+
+
