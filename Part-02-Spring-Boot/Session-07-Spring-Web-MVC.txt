@@ -1,0 +1,57 @@
+Session-07-Spring-Web-MVC.
+-> Spring Web-MVC is one module available in spring framework.
+->By Using Spring MVC module we can develope below types of application.
+   1)Web Application(Client to Buisiness)
+   2)Distributed Application(Buisines to Application)
+   
+Spring Boot -> Uses internally Spring MVC-Module to develope web application and Distributed application.
+
+Spring Web MVC module is Developed Based on 2 Desinge Pattern.
+
+ 1)MVC Desinge Pattern.
+ 2)Front Controller Desinge Pattern.
+ 
+ 
+ 1)MVC Design Pattern.
+ 
+ M - Model     :  it represent DATA.
+ V - View      :  it represent Presention Logic.
+ C - Controller:  it is responsible to  handle request and response;
+ 
+ MVC Design Pattern is used to develope application with loosly coupling.
+ 
+ -------------------------------------------------------------------------------
+ 2)Front Controller
+ -----------------------------------------
+ ->Spring MVC module is using front controller desig pattern to deal with  the pre-processing and 
+ post-processing.
+ 
+ -> In Spring MVC Dispacther Servelt is ac as Front Controller.
+ 
+ Note: DispactherServlet Is PreDefined class In Spring MVC.
+ 
+ 
+ Adavantages Spring Web-MVC
+ --------------------------------------------------------------
+ 1)supports developing both types of application
+    Web and Distributed.
+ 2)Spring Web MVC Application can deal with multiple presentaion technology.
+       1)JSP
+	   2)Thymeleaf
+ 3) Spring Web mvc support Form Bindings.
+ 4)provide flexibilty to form binding data type.
+ 
+ 
+ Spring WEB MVC
+ ------------------------------
+ 1)FrontController  -> FrontController is Responsible to Deal With pre-processing and post-processing.
+ 2)HandlerMapper    -> it is used to identify Controller to handle request.
+ 3)controller       -> Request and Response handling.
+ 4)ModelAndView     ->  identify the view file location
+ 5)View.            -> view is responsible to render model data .
+ 
+ 
+ 
+ 
+ 
+ 
