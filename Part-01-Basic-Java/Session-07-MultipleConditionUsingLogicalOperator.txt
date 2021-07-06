@@ -1,0 +1,9 @@
+Session-07-MultipleConditionWithLogicalOperator.
+---------------------------------------------------
+
+Logical operator
+
+OR ||  : given multiple condition if one condition got true , result will be true.
+AND && : given multiple condition if one condition got false, result will be false.
+NOT !  : given condition reversed it , if condition got true , result will be false vice versa.
+
