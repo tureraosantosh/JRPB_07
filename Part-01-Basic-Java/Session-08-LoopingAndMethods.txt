@@ -1,0 +1,77 @@
+Statememnt
+
+Jumping and iteration/looping
+Jumping
+if 
+if else
+switch case
+if 
+logical or and not.
+
+->repeatation of statement till the condtion false.
+
+Syntax:
+
+for(initilization;condition; incrmnt/dcrmnt)
+{
+
+statement....
+.......n
+
+}
+
+for(int x=1;x<6;x=x+1){
+System.out.println("Satish");
+}
+x=1 true Satish.
+x=2 true Satish.
+x=3 true Satish.
+x=4 true Satish.
+x=5 true Satish.
+x=6 false 
+
+         
+while
+do-while.
+
+Methods:
+method is sub module/functionality which is used to write functionality.
+it is combination of multiple statement.
+Advantage.
+1)we can use same code without writing multiple time.(write once )
+2)Error finding more easy.
+
+define:
+Simple method
+
+public/private/protected
+access modifier:       return type (void) methodName(){
+
+}   
+
+example:
+Simple method
+public void printName()
+{
+
+System.out.println("i am santosh");
+
+}  
+
+parametrized method:
+
+public void printName(String name){
+System.out.println("Name is :"+name);
+}   
+
+return method:
+
+public double getMult(int num){
+
+double mult=num*num;
+
+return mult;
+
+}         
+
+

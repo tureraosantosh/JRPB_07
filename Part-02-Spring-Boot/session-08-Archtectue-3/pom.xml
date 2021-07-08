@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.career</groupId>
-	<artifactId>session-08-architecture</artifactId>
+	<artifactId>session-08-Archtectue-3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>session-08-architecture</name>
+	<name>session-08-Archtectue-3</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
