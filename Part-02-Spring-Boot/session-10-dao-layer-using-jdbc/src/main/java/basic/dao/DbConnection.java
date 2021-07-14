@@ -5,14 +5,14 @@ import java.sql.DriverManager;
 
 public class DbConnection {
 
-	public Connection createConnection() {
+	public static Connection createConnection() {
 		Connection con = null;
 		try {
 			// load driver
 			Class.forName("org.postgresql.Driver");
 			// connection object
 			// db information
-			String uri = "jdbc:postgresql://localhost:5432/um";
+			String uri = "jdbc:postgresql://localhost:5432/papp";
 			String user = "postgres";
 			String password = "root";
 			con = DriverManager.getConnection(uri, user, password);
