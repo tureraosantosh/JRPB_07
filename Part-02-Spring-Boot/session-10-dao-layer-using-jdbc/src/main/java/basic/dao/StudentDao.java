@@ -16,7 +16,7 @@ public class StudentDao {
 			PreparedStatement stmt = con.prepareStatement(sql);
 
 			stmt.setInt(1, student.getId());
-			stmt.setString(2, student.getFname());
+			stmt.setString(2, student.getEmail());
 			stmt.setString(3, student.getLname());
 			stmt.setString(4, student.getEmail());
 			// Execution

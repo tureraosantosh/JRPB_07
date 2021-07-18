@@ -6,9 +6,9 @@ public class StudentDaoTest {
 		
 		StudentDao studentDao=new StudentDao();
 		
-		Student student=new Student(1, "Lily", "S", "lily@gmail.com");
+		Student student=new Student(101, "Lily", "S", "lily@gmail.com");
 		
-		studentDao.getAllStudent();
+		studentDao.saveStudent(student);
 	}
 
 }
