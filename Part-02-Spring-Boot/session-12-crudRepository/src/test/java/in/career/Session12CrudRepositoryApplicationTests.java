@@ -1,6 +1,5 @@
 package in.career;
 
-import java.util.List;
 import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
@@ -32,10 +31,8 @@ class Session12CrudRepositoryApplicationTests {
 
 	@Test
 	public void showStudent() {
-
 		Optional<Teacher> teacher = teacherDao.findById(2L);
 		System.out.println(teacher.get());
-
 	}
 
 	@Test
