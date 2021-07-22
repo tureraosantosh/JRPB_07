@@ -1,6 +1,7 @@
 package in.career;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +25,24 @@ class Session13FindByApplicationTests {
 		empRepo.save(e1);
 	}
 	
+	@Test
+public void testNullPointerExcptionForFindByEmail()
+{
+	Optional<Employee> findByEmail = empRepo.findByEmail("san@gmail.com");
+	
+	if(findByEmail.isPresent()) {
+		System.out.println(findByEmail.get());
+	}
+	
+	
 
+	
+	
+}
 	@Test
 	public void testFindByEmail()
 	{
-	Employee emp=empRepo.findByEmail("santosh@gmail.com");
+	Optional<Employee> findByEmail = empRepo.findByEmail("santosh@gmail.com");
 	
 	System.out.println("Data FindByEmail MEthod "+emp);
 	}
