@@ -1,8 +1,9 @@
 package com.employee.service;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,17 +28,13 @@ public class EmployeeService {
 	}
 
 	public List<EmployeeRegistration> getAllEmployee() {
-		List<Employee> allEmployee = employeeRepo.findAll();
+		ModelMapper modelMapper = new ModelMapper();
+		List<Employee> findAll = employeeRepo.findAll();
 
-		Employee employee = allEmployee.get(0);
+		// Converting EmployeeList to EmployeeRegistrationList....
+		List<EmployeeRegistration> empRegistration = findAll.stream()
+				.map(user -> modelMapper.map(user, EmployeeRegistration.class)).collect(Collectors.toList());
 
-		List<EmployeeRegistration> empRegistration = new ArrayList<EmployeeRegistration>();
-
-		EmployeeRegistration emr = new EmployeeRegistration();
-		emr.setFirstName(employee.getFirstName());
-		emr.setLastName(employee.getLastName());
-		emr.setEmail(employee.getEmail());
-		empRegistration.add(emr);
 		return empRegistration;
 	}
 

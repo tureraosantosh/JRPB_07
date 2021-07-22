@@ -41,11 +41,9 @@ public class EmployeeController {
 
 	@GetMapping("/emps")
 	public ModelAndView getAllEmployee() {
-
 		ModelAndView mav = new ModelAndView();
 		List<EmployeeRegistration> allEmployee = empService.getAllEmployee();
 		mav.addObject("employees", allEmployee);
-		System.out.println(allEmployee);
 		mav.setViewName("employeeViews");
 
 		return mav;
