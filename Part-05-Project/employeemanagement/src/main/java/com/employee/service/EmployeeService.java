@@ -1,6 +1,7 @@
 package com.employee.service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
@@ -19,12 +20,32 @@ public class EmployeeService {
 
 	public boolean saveEmployee(EmployeeRegistration empReg) {
 		Employee emp = new Employee();
+		emp.setId(empReg.getId());
 		emp.setFirstName(empReg.getFirstName());
 		emp.setLastName(empReg.getLastName());
 		emp.setEmail(empReg.getEmail());
-		employeeRepo.save(emp);
+		employeeRepo.saveAndFlush(emp);
 		return true;
 
+	}
+	
+
+	public EmployeeRegistration editEmployee(Long id)
+	{
+		ModelMapper mapper=new  ModelMapper();
+		
+		Employee employee = employeeRepo.getOne(id);
+		
+		EmployeeRegistration EmpReg = mapper.map(employee, EmployeeRegistration.class);
+		
+		return EmpReg;
+	
+	
+	}
+	
+	public void deleteEmployee(Long id)
+	{
+		employeeRepo.deleteById(id);
 	}
 
 	public List<EmployeeRegistration> getAllEmployee() {

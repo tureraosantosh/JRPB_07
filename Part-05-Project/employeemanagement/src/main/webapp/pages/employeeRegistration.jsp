@@ -14,6 +14,10 @@
 	<s:form action="registration" modelAttribute="employeeRegistration"
 		method="post">
 		<table>
+					<tr>
+				<td>id :</td>
+				<td><s:input path="id" type="number" /></td>
+			</tr>
 			<tr>
 				<td>First Name :</td>
 				<td><s:input path="firstName" type="text" /></td>

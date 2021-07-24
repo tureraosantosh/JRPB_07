@@ -11,8 +11,6 @@
 </head>
 <body>
 	<h1>View All Employees</h1>
-
-
 	<a href="empreg"> Add New Employee</a>
 	<br>
 	<br>
@@ -34,7 +32,7 @@
 					<td>${k.firstName }</td>
 					<td>${k.lastName }</td>
 					<td>${k.email }</td>
-					<td><a href="">Edit</a> | <a href="">Delete </a></td>
+					<td><a href="/edit?id=${k.id }">Edit</a> | <a href="/del?id=${k.id}">Delete </a></td>
 				</tr>
 			</tbody>
 		</p:forEach>

@@ -6,8 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.employee.entity.Employee;
 import com.employee.model.EmployeeRegistration;
 import com.employee.service.EmployeeService;
 
@@ -23,7 +25,30 @@ public class EmployeeController {
 		mav.setViewName("index");
 		return mav;
 	}
+	
+	@GetMapping("del")
+	public String deleteEmployee(@RequestParam("id")Long id)
+	{
+		
+		empService.deleteEmployee(id);		
+		return "redirect:/emps";
+	
+		
+		
+	}
 
+	@GetMapping("edit")
+	public ModelAndView editEmployee(@RequestParam("id") Long id)
+	{
+		
+		ModelAndView mav=new ModelAndView();
+		EmployeeRegistration employeeRegistration = empService.editEmployee(id);
+		mav.addObject("employeeRegistration",employeeRegistration);
+		mav.setViewName("employeeRegistration");
+//		employeeRegistration		
+		return mav;
+		
+	}
 	@GetMapping("/empreg")
 	public ModelAndView loadEmplyeeForm() {
 		ModelAndView mav = new ModelAndView();
@@ -35,6 +60,7 @@ public class EmployeeController {
 
 	@PostMapping("/registration")
 	public String saveEmployee(EmployeeRegistration employeeRegistration) {
+		
 		empService.saveEmployee(employeeRegistration);
 		return "redirect:/emps";
 	}
@@ -48,5 +74,7 @@ public class EmployeeController {
 
 		return mav;
 	}
+	
+	
 
 }
