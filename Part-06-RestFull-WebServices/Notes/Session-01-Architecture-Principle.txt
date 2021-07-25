@@ -1,0 +1,166 @@
+Spring Core :
+  1)Startergy Design Pattern.
+  2)Loosly Coupling.
+  3)Dependancy Injection.
+               setter
+			   field
+			   constructor.
+ Scopes.
+ Bean
+Part 01 :  Spring Boot Internals.
+              @SpringBootApplication.
+			  @ComponentScans.
+			  deduceFromPath.
+			  
+			 1)standalone  ->
+			 2)web application   Business to Customer(B To C) Web MVC
+			   1)using jsp(Old)------
+			   2)using thymleaf  (Pending)....
+			 3)distributed application. (business to buisiness)
+			 
+                    MakeMyTrip          ->        IRCTC 
+
+
+Part -02:    Spring boot JPA.
+Part -03:    Web MVC
+---------------------------------------------
+Part -04:    RestFull Web Service.
+---------------------------------------------
+      Session-01-What is Web Services.
+	   ->To Develope Distributed  application we use Web services.
+	   ->WebServices is a distributed technology which is used to develope distributed 
+	      application with interoperabilty
+		  
+	What is InterOpearabilty?
+    ->Irrespective of the platform and ireespective of the programming language if application are 
+communicating then they are called as interoperabale application.	
+      java ------>  php
+	  Angular ------------- >SaleForce
+	  Python ----------------->.Net
+---------------------------------------------------------------------------------------------------------------
+In Distributed Application  Consumer and Producer(Provider) will exchange.
+
+Note : Data Must be InterOperable.
+
+Universal Types to exchange Data:
+            ->XML,Json,YML.
+---------------------------------------------------
+We can develope distributed application using 2 ways.
+
+1)Simple Object Access Protocol   (SOAP) Web Service. (old)
+2)Representational State Transfer (REST) Web Services.(trending)
+    
+
+      
+-> In distributed application 2 Actors will be available.
+  1)Provider App(IRCTC)
+  2)Consumer APP(make my trip)
+  
+  Consumer -> The Application which is taking buisiness services from other application is called 
+  consumer application.
+  
+  Provider -> The Application Which is giving buisiness services to other application is called
+  provider application.
+  
+  consumer and producer 
+  exchange data in interoperabale format (xml,json,yaml)
+  
+  SOAP -> can developed by 2 ways.
+  1)JAX-RPC  Api.
+  2)JAX-WS   Api.
+  
+  Rest -> can be developed in 2 ways.
+  1) JAX-RS api.
+  2)Spring with REST(Trending).
+  
+			
+-------------------------------------
+RESTful Service Evalution
+-------------------------------------
+->"Roy Fielding" identified some drawback in soap.
+->"Roy Fielding" introduce new Architecure style for Distributed Application.
+->When we use "Roy Fielding " Architecure Principle for Distributed application then 
+our application called Restfull web service.			
+------------------------------------------------------------------
+Rest Principle
+------------------------------------------------------------------
+1)Unique Addressabilty.
+2)Uniform Constraint Interfaces.
+3)Message Oriented Representation.
+4)Communication Stateless.
+5)HATEOS.
+------------------------------------------------------------------
+1)Unique Addressabilty
+------------------------------------------------------------------
+In Rest API we write several methods to perfrom distributed operations.
+Every Method should have unique address.
+this is called Uniquer addressbility
+
+example:
+  public class IrctcRestApi
+  {
+  
+  ("/ticket")
+  public Ticket bookTicket(Passanger passender){   
+  
+  }
+  ("/trains")
+  public List<Trains> getAllTrains(String sourceStation,String destination){
+                                   ...
+  }
+  }
+-----------------------------------------------------------------------------------------
+2)Uniform Constraint Interfaces.
+----------------------------------------------------------------------------------------
+All Methods which are writing in Distributed Application, must be bind with 
+HTTP Protocol Methods.
+
+class StudentRestController
+{
+("/hello")
+public String hello()
+{
+
+}
+
+}
+
+
+HTTP Methods.
+1)Get                  ---->To Get/Retrive Data   ----- @GetMappng("/")
+2)Post                 ---->To Save  Data.        ----- @PostMapping("/")
+3)Put                  ---->To Update/Edit Data.  ----- @PutMapping("/")
+4)Delete               ----> To Delete Data.      ----- @DeleteMapping("/"
+5)Patch                ----> To update single data(field)@PatchMapping("/")
+------------------------------------------------------------------------------------
+3)Message Oriented Representation
+------------------------------------------------------------------------------------
+Consumer and Provider should exchange data as per Requirement and format.
+
+id , firstName,lastName
+[
+{
+"id":1,
+"firstName":"santosh",
+"lastName":"turerao"
+
+},{},{}
+]
+
+-------------------------------------------------------------------------------------
+4.Commuication Stateless
+------------------------------------------------------------------------------------------------
+->Consumer Request Should not store at provider site.
+->Every Request should be treated as first request only this is called stateless communication.
+------------------------------------------------------------------------------------------------
+
+5.HATEOS - Hypermedia as an engine for the application State.
+-----------------------------------------------------------------------------------------------
+Provider should send data into Hypermedia( Links a tag)
+
+
+
+   
+
+   
+

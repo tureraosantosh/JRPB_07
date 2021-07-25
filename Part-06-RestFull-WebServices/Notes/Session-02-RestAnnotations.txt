@@ -1,0 +1,25 @@
+Session-02-Rest-Annotations.
+-------------------------------------------
+@RestController  -> To Represent java class as RestController(Distributed Component).
+@GetMapping()    -> it bind to https get method ->  http get -> to retrive data.
+     
+@PostMapping()   ->   http post                         -> to save data.
+@Putmapping
+@DEleteMapping
+
+@RequestMapping   ->  it is used to general purpose like to bind with any http method, and 
+                      represend address.				  
+					  
+					  @RequestMapping(method=put,value="/irct")   class level address.
+@RequestParam     -> it is used to retrive data from request url using key and pair.
+                      /reservastion?source=thane&destinatio=bhusaval
+@PathVariable     ->  it is used to retive data from url (it is for field mandatory)
+
+@RequestBody      ->  to read data from requst body and convert to object
+                       read data from client
+
+@ResponseBody     ->  write object data  to Response Body
+                            write data to client as response.
+							
+
+					  
