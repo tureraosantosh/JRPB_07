@@ -1,0 +1,23 @@
+
+Dao Developement.
+-----------------------------------------
+Using JPA we can perform opertion 3 way.
+1)Predefined Methods.
+2)findBy
+3)CustomQuery.
+
+
+
+SQL Structured Query Language -> 
+
+select
+
+HQl/JPQl
+9
+
+
+SQL
+select id,email,mobile,salary,desgination from employee e
+
+@Query("select id,email,mobile,salary,desgination from employee e")
+public List<Employee> getlAllRecords();
