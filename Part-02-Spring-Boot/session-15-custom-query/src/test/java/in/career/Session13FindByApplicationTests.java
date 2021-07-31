@@ -6,6 +6,8 @@ import java.util.Optional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Sort;
 
 import in.career.dao.EmployeeRepo;
 import in.career.entity.Employee;
@@ -15,6 +17,24 @@ class Session13FindByApplicationTests {
 
 	@Autowired
 	EmployeeRepo empRepo;
+	
+	@Test
+	public void testFilteredEmployee()
+	{
+		Employee emp=new Employee();	
+		emp.setEmail("satish@gmail.com");
+		Example<Employee> exampleEmployee = Example.of(emp);		
+		List<Employee> findAll = empRepo.findAll(exampleEmployee);
+		System.out.println(findAll);
+	}
+	
+	@Test
+	public void testSortEmployee()
+	{
+		Employee emp=new Employee();
+		Sort.DEFAULT_DIRECTION;
+		empRepo.findAll(sort);
+	}
 	
 	@Test
 	public void testCustomQueryGetAllEmployees()
