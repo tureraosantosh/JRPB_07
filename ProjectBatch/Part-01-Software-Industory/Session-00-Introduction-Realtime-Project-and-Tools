@@ -1,0 +1,84 @@
+Session-00-Introduction-Realtime-Project-and-Tools.
+--------------------------------------------------------
+Part-01-Software-Industry Terminology.
+			1)how  many types of software compnies.
+			2)Interview Process in Software compnies.
+			3)What is Software Project.
+			4)How many Sofware Project and work culture.
+			5)How many teams and roles and responsbilty.
+			6)Roles Chart hirarchy.
+			7)Bridge cals vs VC.
+			8)Conclusion.
+----------------------------------------------------------
+Part-02-Java-Real-time-Tools.
+----------------------------------------------------------
+			Build Tools.
+			1)Maven.
+			2)Gradle.
+		 Version Controls toos
+			3)Git 
+			4)BitBucket.
+			5)SVN.
+			6)Source Tree.
+		Logging Tools.
+		    7)Log4J,SLF4J,LogBack.
+			8)Log Monitaring Tools. Putty,WinScp,Splunk,Elastice Search and Kibana(ELK)
+		Testing Tools.
+		9)Junit
+		10)Mocking / Mockito.
+		11)Code Covering Jacoco.
+		12)JMeter
+		
+		Code Quality.
+		13)Sonar Qube 
+		Documentation.
+		14)Swagger UI
+		15)JIRA.
+		Testing client.
+		---------------------
+		16)soap-ui.
+		17)Postman
+		Email
+		18)Spring boot email service.
+		19)Reports using Apache POI API
+	Caching.
+	 20) RedisCaching.
+	 CI/CD
+	 21)Jenkins.
+	 Deployment Tools
+	 22)Aws cloud
+	 23)Docker
+	 24)Kubernetes.
+	 25)Apacke Kafka.
+------------------------------------------------------------------------
+Part-03-we are developing three mini project(Spring boot and web services)
+------------------------------------------------------------------------
+1)Project-Phone Web Contact.
+2)Project-User Management.
+3)Project-Advance Search-Sorting .
+----------------------------------------------------------
+Part-04-Major-Project
+----------------------------------------------------------
+   1)Health Insurance.
+   2)7 modules.
+   3)Project architecture.
+   4)Project Flow 
+   5)Batch Projecessing.
+   6)Multi Threading.
+   7)Exception Handling.
+   8)Reports.
+ -------------------------------------------------------
+ Part-05-Interview Guide
+ -------------------------------------------------------
+ Resume Preparation 
+ Accurate profile creationg in job portals
+ How to cover gap
+ Joining Formalities.
+ First Day of Joining
+ Last Day of Joining.
+  
+  Do's and Don't in IT Company.
+	 
+		
+		
+			    
