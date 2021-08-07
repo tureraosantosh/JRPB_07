@@ -1,0 +1,31 @@
+Session-18-create-employee-data.
+step-01-create project with below dependancy.
+  starter-web.
+  starter-jpa.
+  servlet-jstl.
+  embeded apache.
+  dev-tools.
+  postgresql.
+ 
+Stpes-02- create packages.
+
+in.career
+in.career.entity.
+in.career.service.
+in.career.controller
+
+Step-03-Create all clases and intefaces.
+
+          Employee
+		  EmpyoeeRep(I)
+		  EmployeeService
+		  EmployeeController
+
+Step-04-Create Jsp pages.
+             index.jsp welcome 
+			 employeeRegistration.jsp.
+			 success.jsp
+			 failed.jsp
+Step-05-View Configuration Application.properties.
+suffix
+prefix.

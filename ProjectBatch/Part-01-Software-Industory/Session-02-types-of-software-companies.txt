@@ -1,0 +1,84 @@
+Session-02-Software Companies category.
+    
+	1)Product Based Company
+	2)Service Based Company
+	3)Outsourcing  Based Company.
+	
+	What is Product Based Company.
+	--------------------------------------------
+	->The Company which develope Product/Project  and selling to people in the market
+	called product based company.
+	
+	Microsoft ->
+	Google    ->
+	Amazon Web Services ->
+	HP->
+	IBM
+	Skills * 1 * year of experiance.
+	
+	spring 
+	angular
+	aws
+	
+	1 * 6
+	        
+			In Product Based Company Interview Requirement
+			1)Data Structure
+			2)Algorithm
+			3)System Design
+			4)Problem Solving skills.
+			5)Time Complexity and Space Complexity
+			
+	
+	2)Service Based Company.
+	
+	
+	TCS  ->       BANK Of AMerica
+					10 develpor
+					Project
+	
+	hire developer in self package and deployed to client.
+	
+	TCS
+	Capgemini
+	Accenture
+	Reliance Jio
+	LTI
+	Infosys
+	TechMahindra.
+	USA
+	5K   doller developer 
+	5000 * 75 
+	3.75 lac
+	30k rupees 
+	
+	In Service Company Interview Requirement
+	   many employees 
+	   java
+	   spring boot
+	   microservice
+	   aws
+	   Rest Service
+	   Angular / Fullstack
+	   
+	   basic level of data structure/collection.
+	   
+	   1 * 3
+	   
+	
+Outsourcing 
+
+outsourcing companies provide engineeres to  service based and product based compainies.
+
+Example: 
+     Magna Infotech.
+	 Source One Management.
+	 
+	 3rd Party Payroll.
+   	
+	   
+	   
+	   
+			
+
+			
